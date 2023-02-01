@@ -1,15 +1,39 @@
-var studentData = "MD Khan"
 
-function abc() {
-    console.log(studentData);
+function init(cc) { 
+    switch (cc) {
+        case "Blue":
+            about = document.getElementById("about");
+            about.style.color = 'blue';
+            break;
+
+        case "Red":
+            about = document.getElementById("about");
+            about.style.color = 'red';
+            break;
+
+        case "Green":
+            about = document.getElementById("about");
+            about.style.color = 'green';
+            break;
+
+        case "Purple":
+            about = document.getElementById("about");
+            about.style.color = 'purple';
+            break;
+    
+        default:
+            break;
+    }
 }
-abc();
 
-let a = 6;
-let b = 9;
-let c = a * b;
+var firstname= "MD Ahmed"
 
-// stops the execution
-debugger;
+function studentInfo(name ,rank) {
+    console.log(name  + " Has Scored -- "+ rank+" rank");
+    document.write(name  + " Has Scored -- "+ rank+" rank");
+}
+studentInfo("Khan", 2);
 
-console.log(c);
+var lastname= "Raza Khan"
+
+
