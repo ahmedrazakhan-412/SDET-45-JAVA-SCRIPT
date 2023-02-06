@@ -15,6 +15,8 @@ function studentInfo(name ,id, salary,skillset) {
 var std1 = new studentInfo("Khan", "TR204",45000,["API","JavaScript","Selenium","Java"]);
 var std2 = new studentInfo("Ahmed", "TR354",25000);
 
-console.log(std1.fullDetails());
+//console.log(std1.fullDetails());
 //console.log(std1.skillset[2]);
 //console.log(std2);
+
+console.log(std1);
