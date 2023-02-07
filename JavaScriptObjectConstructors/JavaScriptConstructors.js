@@ -1,4 +1,5 @@
 class Person {
+  
 constructor (first, last, age, eye) {
     this.firstName = first;
     this.lastName = last;

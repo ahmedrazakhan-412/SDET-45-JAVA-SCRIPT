@@ -1,0 +1,32 @@
+Regular Expression Search Methods
+
+In JavaScript, a regular expression text search, can be done with different methods.
+
+With a pattern as a regular expression, these are the most common methods:
+
+Example	Description
+
+text.match(pattern)	        The String method match()
+text.search(pattern)	    The String method search()
+pattern.exec(text)	        The RexExp method exec()
+pattern.test(text)	        The RegExp method test()
+
+The Difference Between
+
+String match() and String search()
+
+The match() method returns an array of matches.
+
+The search() method returns the position of the first match.
+
+The Difference Between
+String search() and String indexOf()
+The search() cannot take a start position argument.
+
+The indexOf() method cannot search against a regular expression.
+
+The Difference Between
+String search() and String match()
+The search() method returns the position of the first match.
+
+The match() method returns an array of matches.
