@@ -1,0 +1,49 @@
+/*JavaScript Sine and Cosine Methods:
+
+The Math.sin() Method
+The Math.sinh() Method
+The Math.asin() Method
+The Math.asinh() Method
+
+The Math.cos() Method
+The Math.cosh() Method
+The Math.acos() Method
+The Math.acosh() Method
+
+JavaScript Tangent Methods:
+
+The Math.tan() Method
+The Math.tanh() Method
+The Math.atan() Method
+The Math.atan2() Method
+The Math.atanh() Method
+Sine and Cosine Methods:
+The Math.sin() Method
+The Math.cos() Method
+
+
+What is Radians?
+Radians is an angle's α amount of rotation b on a circle:
+
+Degrees	        PI	        Radians
+0°	            0	            0
+1°	            PI/180	        0.0175
+30°	            PI/6	        0.52
+45°	            PI/4	        0.79
+90°	            PI/2	        1.57
+180°	        PI	            3.14
+360°	        PI*2	        6.28
+
+The Pythagoran Therorem
+Math.sin(), Math.cos(), and Math.tan() are related to the Pythagorean theorem:
+
+Pythagoras
+
+Theorem: c2 = a2 + b2
+
+The sine Math.sin() to the angle is a / c.
+
+The cosine Math.cos() to the angle is b / c.
+
+The tangent Math.tan() to the angle is a / b.  */
+
