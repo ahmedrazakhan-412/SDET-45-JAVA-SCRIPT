@@ -22,11 +22,11 @@ class Student {
 
 //Data can be made private by using $*/
 class Student { 
-    $marks=80;
-    get marks() {  
-    return this.$marks;  
+    _marks=80;
+    get _marks() {  
+    return this._marks;  
     }  
   }  
   StudentData = new Student();
-  StudentData.marks=-20;
-  console.log(StudentData.marks);//
+  StudentData._marks=-20;
+  console.log(StudentData._marks);//

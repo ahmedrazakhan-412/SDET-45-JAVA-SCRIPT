@@ -33,9 +33,9 @@ const container = document.querySelector(".container"),
         container.classList.remove("active");
     });
 
-const loginForm = document.getElementById("login-form");
-const loginButton = document.getElementById("login-form-submit");
-const loginErrorMsg = document.getElementById("login-error-msg");
+const loginForm = document.querySelector(".form login");
+const loginButton = document.querySelector(".input-field button");
+const loginErrorMsg = document.querySelector("login-error-msg");
 
 loginButton.addEventListener("click", (e) => {
     e.preventDefault();

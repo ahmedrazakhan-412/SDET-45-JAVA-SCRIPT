@@ -2,8 +2,8 @@ class person {
     a=50;
     static b = 80;
     constructor(fname,lastname) {
-        this.fname=fname;
-        this.lastname=lastname;  
+    this.fname=fname;
+    this.lastname=lastname;  
     }   
 
     static staticMethod(data) { 
