@@ -21,6 +21,9 @@ var khan = {
   lastName: "Nilsen",
 }
 
-//let f = person.fullName.call(khan);
-let f = person.fullName.call(khan);
-console.log(`fullName : ${f}`);
+function greeting(fullName, lastName) {
+  return "Mera "+fullName+" Apka "+person.fullName()+lastName;
+}
+console.log(greeting.apply(person,["shashi", "Khan"]));
+// var bindData = greeting.bind(person,"shashi", "Khan");
+// console.log(bindData());
