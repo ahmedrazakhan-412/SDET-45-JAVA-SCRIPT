@@ -10,6 +10,6 @@
 
 // // without Passing the Parameter.
 (function() {
-    console.log("Immediately Invoked Function Expression");
+    console.log("Immediately Invoked Function without Passing the Parameter");
 })();
 

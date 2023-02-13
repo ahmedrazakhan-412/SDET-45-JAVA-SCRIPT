@@ -8,7 +8,7 @@ function studentInfo(name) {
 
 
 var std1 = new studentInfo("Khan");
-console.log(std1);
+console.log(std1.firstName);
 
 function studentInfo(name,id) {
     this.firstName=name

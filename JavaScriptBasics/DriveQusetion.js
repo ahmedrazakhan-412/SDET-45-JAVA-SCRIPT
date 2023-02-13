@@ -82,16 +82,16 @@
 // }
 
 // remove white empty spaces from Strings in JavaScript
-function trimLeftSpace(str) {
-    var result = "";
-    for(var i = 0; i < str.length; i++) {
-      if(str[i] == " ") {
-        continue;
-      } else {
-        result += str[i];
-      }
-    }
-    return result;
-  }
+// function trimLeftSpace(str) {
+//     var result = "";
+//     for(var i = 0; i < str.length; i++) {
+//       if(str[i] == " ") {
+//         continue;
+//       } else {
+//         result += str[i];
+//       }
+//     }
+//     return result;
+//   }
   
-  console.log(trimLeftSpace('I am an employee '));
+//   console.log(trimLeftSpace('I am an employee '));

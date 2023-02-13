@@ -12,7 +12,7 @@ var person = {
   firstName1:"John",
   lastName: "Doe",
   fullName: function () {
-    return this.firstName1 + " " + this.lastName;
+    return this.firstName1 + " " + this.lastName+ " " + this.email;
   }
 }
 
@@ -22,8 +22,16 @@ var khan = {
 }
 
 function greeting(fullName, lastName) {
-  return "Mera "+fullName+" Apka "+person.fullName()+lastName;
+  return "Mera "+fullName+" Apka "+person.fullName()+" "+lastName;
 }
-console.log(greeting.apply(person,["shashi", "Khan"]));
+
+// Call
+console.log(greeting.call(person,"shashi","Khan"));
+
+// Apply
+var arr = [];
+console.log(greeting.apply(person,[arr.push(person.email="khan@412"),"shashi", "Khan"]));
+
+// Bind
 // var bindData = greeting.bind(person,"shashi", "Khan");
 // console.log(bindData());

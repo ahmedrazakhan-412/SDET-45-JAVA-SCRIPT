@@ -11,6 +11,5 @@ var BioBookSM = [{
     console.log(name  + " Has Scored -- "+ rank+" rank");
 }
 ];
-
 // console.log(BioBookSM[0].Name);
-console.log(( BioBookSM[2])("Khan" ,"3"));
+console.log((BioBookSM[2])("Khan" ,"3"));
