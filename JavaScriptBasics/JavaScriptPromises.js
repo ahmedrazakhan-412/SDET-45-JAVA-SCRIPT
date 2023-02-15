@@ -3,9 +3,9 @@
 async function sync() {
 console.log("Login to the Application");
 
-var promise = new Promise(function(resolve, reject) {
-    const x = "Data";
-    const y = "Data"
+var p = new Promise(function(resolve, reject) {
+    const x = 0;
+    const y = "0"
     if(x === y) {
         resolve();
     } else {
@@ -13,7 +13,7 @@ var promise = new Promise(function(resolve, reject) {
     }
     });
         
-  await promise.
+  await p.
         then(function () {
             console.log('Success, Logged Application');
         }).
