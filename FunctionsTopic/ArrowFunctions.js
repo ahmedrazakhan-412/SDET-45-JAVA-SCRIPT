@@ -4,7 +4,9 @@ console.log(myFunction(5));
 
 hello = (b,a) => {
     return "Hello World! "+a;
-  };console.log(hello(888,55));
+  };
+  
+  console.log(hello(888,55));
 
 
 

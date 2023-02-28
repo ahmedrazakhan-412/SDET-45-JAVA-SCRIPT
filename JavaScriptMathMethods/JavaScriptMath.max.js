@@ -18,7 +18,7 @@ console.log(Math.max(5, 10));
 
 //More Examples
 
-console.log(Math.max(5, 10));
+console.log(Math.max(5, 55));
 console.log(Math.max(0, 150, 30, 20, 38));
 console.log(Math.max(-5, 10));
 console.log(Math.max(-5, -10));
