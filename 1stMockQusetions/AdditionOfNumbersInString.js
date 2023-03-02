@@ -12,9 +12,7 @@ Output -  10
         Numbers = Numbers+"*";
       } 
     }
-    console.log(Numbers);
     var arrnum = Numbers.split("*");
-    console.log(arrnum);
     var num = 0;
     var total = 0;
     for (let index = 0; index < arrnum.length; index++) {
