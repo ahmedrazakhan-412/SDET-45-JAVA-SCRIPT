@@ -8,9 +8,8 @@ var p = new Promise(function(resolve, reject) {
     const x = 0;
     const y = "0"
     if(x === y) {
-        resolve();
-    } else {
-        reject();
+        resolve("In Progress");
+        reject("Rejected");
     }
     });
         
