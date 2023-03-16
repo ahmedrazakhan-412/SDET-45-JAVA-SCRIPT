@@ -10,8 +10,8 @@ let text = '{ "employees" : [' +
 '{ "firstName":"Anna" , "lastName":"Smith" },' +
 '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
 
-//Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
+// Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
 
 const obj = JSON.parse(text);
 console.log(obj.employees[0]);
-console.log(obj.employees[0].firstName);
+console.log(obj.employees[2].firstName);
