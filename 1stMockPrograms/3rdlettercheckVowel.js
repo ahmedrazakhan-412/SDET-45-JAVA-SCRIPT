@@ -1,7 +1,7 @@
 /* Take a sentence as a string, if the word has a 3rd letter as a vowel 
 Then the word should start with uppercase
 Input - welcome to coding beauty
-Output - Good morning welcome to javascript session*/
+Output - welcome to coding Beauty */
 
   function tocheckVowel(str) {
     var arr=str.split(' ');

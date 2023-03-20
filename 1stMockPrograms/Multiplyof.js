@@ -1,6 +1,7 @@
 // Write the program to print the number if the number is a multiple of 5 & 10
 
 function multipleOf(num) {
+  
     if((num%5)==0 && (num%10)==0){
         return num+" This number is multiply by both 5 & 10";
     }

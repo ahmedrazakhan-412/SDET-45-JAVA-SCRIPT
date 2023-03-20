@@ -1,4 +1,5 @@
 /* Seperate all characters in string like UpperCase, LowerCase, Numbers, SpecailCharacters
+
 Input - AxB5#*eZ5
 Output -  10
 */

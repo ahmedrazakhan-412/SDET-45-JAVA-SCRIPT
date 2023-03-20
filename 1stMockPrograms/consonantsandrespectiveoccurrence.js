@@ -1,4 +1,5 @@
 // Print the consonants present in the string and the respective occurrence
+
 function occuranceOfConsonants(ch) {
 	console.log("The Given String '"+ch+"' ");  
     console.log("Without Vowels : ");
