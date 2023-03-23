@@ -1,5 +1,6 @@
 /* JavaScript Encapsulation*/
 "use strict";
+
 class Student  {  
     name="";
     marks="";
@@ -25,4 +26,4 @@ class Student  {
     var stud=new Student();  
      stud.setName("John");  
      stud.setMarks(80);  
-     console.log((stud.getName()+" "+stud.getMarks()));  
+     console.log(stud.getName()+" "+stud.getMarks());  

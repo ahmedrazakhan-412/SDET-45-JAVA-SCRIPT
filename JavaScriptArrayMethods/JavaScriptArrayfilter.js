@@ -10,7 +10,7 @@ The filter() method does not change the original array.
 Syntax
 array.filter(function(currentValue, index, arr), thisValue) */
 
-const ages = [32, 33, 16, 40];
+const ages = [32, 14, 33, 16, 40,12];
 console.log(ages.filter(checkAdult));
 
 function checkAdult(age) {

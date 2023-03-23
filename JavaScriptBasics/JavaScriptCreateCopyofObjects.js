@@ -1,4 +1,5 @@
 /* JavaScript Objects are Mutable
+
 Objects are mutable: They are addressed by reference, not by value.
 
 If person is an object, the following statement will not create a copy of person:
@@ -22,6 +23,9 @@ var person = {
 data = Object.create(person);
 console.log(data.firstName="khan");
 console.log(person.firstName); 
+
+// var arr = [];
+// console.log(typeof(arr));
 
 // Object.freeze(person);
 // person.firstName="khan";

@@ -1,10 +1,11 @@
 /* Default parameters
-Default function parameters allow named parameters to be initialized with default values if no value or undefined is passed.
+
+Default function parameters allow named parameters to be initialized with default values 
+if no value or undefined is passed.
 
 function fnName(param1 = defaultValue1, / … ,/ paramN = defaultValueN) {
     // …
   }  */
-
 
 // function multiply(a, b = (Math.random()*10+1)) {
 //     return a * b;
